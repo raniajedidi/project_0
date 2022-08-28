@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+
+<style>
+
+    a{
+        font-size : 18px;
+    }
+
+    .foo {
+        text-align: center;
+        line-height: 30px
+    }
+    .topright {
+        position: absolute;
+        right: 10px;
+        top: 8px
+    }
+    .button_style {
+        position: absolute;
+        background-color: dodgerblue;
+        color: white;
+        line-height: 16px;
+        border-color: dodgerblue;
+        padding: 8px 12px;
+
+        text-align: center;
+        font-size: 12px;
+        top: 200px;
+        left:380px;
+
+
+    }
+    .col1 {
+        float: left;
+        width: 25%;
+        margin-top: 8px;
+    }
+    .col2 {
+        float: left;
+        width: 75%;
+        margin-top: 8px;
+    }
+</style>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h3 style= "color:crimson"> Advanced search </h3>
+    <form action="https://www.google.com/search">
+        Find pages with ...  <br />
+        <br />
+
+        <div class="col1">
+            <label>All these words:</label>
+        </div>
+        <div class="col2">
+            <input type="text" name="as_q"><br />
+        </div>
+        <div class="col1">
+            <label>This exact word or phrase:</label>
+        </div>
+        <div class="col2">
+            <input type="text" name="as_epq"><br />
+        </div>
+        <div class="col1">
+            <label>Any of these words:</label>
+        </div>
+        <div class="col2">
+            <input type="text" name="as_oq"><br />
+        </div>
+        <div class="col1">
+            <label>None of these words:</label>
+        </div>
+        <div class="col2">
+            <input type="text" name="as_eq" ><br />
+        </div>
+
+        <input style="margin: 20px" class="button_style" type="submit" value="Advanced Search"><br />
+
+
+        <a class="topright" href="file:///C:/Users/Jedidi%20Rania/source/repos/DjangoWebProject1/index.html">Google Search</a><br />
+
+    </form>
+</body>
+</html>
